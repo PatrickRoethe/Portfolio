@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front-End Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -14,55 +13,41 @@
         <h1>Welcome to My Portfolio</h1>
     </header>
 
-    <div class="content"> <!-- Flex container for main content -->
+    <div class="content">
         <section id="about">
             <h2>About Me</h2>
-            <p>Hi, I'm [Your Name], a first-year front-end development student passionate about building interactive web
+            <p>Hi, I'm Patrick, a first-year front-end development student passionate about building interactive web
                 experiences.</p>
         </section>
 
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="slide-content">
-                        <img src="https://via.placeholder.com/600x400" alt="Project 1">
-                        <div class="project-description">
-                            <h3>Project 1</h3>
-                            <p>Description for Project 1...</p>
-                        </div>
-                    </div>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="https://patrickroethe.github.io/project-images/Frames.png" alt="Project 1">
+                    <h3>Agency</h3>
+                    <p>Short description project 1.</p>
+                    <a href="projects.html?project=1" class="button">Read More</a>
                 </div>
-                <div class="swiper-slide">
-                    <div class="slide-content">
-                        <img src="https://via.placeholder.com/600x400" alt="Project 2">
-                        <div class="project-description">
-                            <h3>Project 2</h3>
-                            <p>Description for Project 2...</p>
-                        </div>
-                    </div>
+                <div class="project">
+                    <img src="https://patrickroethe.github.io/project-images/Sciencecenter.png" alt="Project 2">
+                    <h3>Science center</h3>
+                    <p>Short description project 2.</p>
+                    <a href="projects.html?project=2" class="button">Read More</a>
                 </div>
-                <div class="swiper-slide">
-                    <div class="slide-content">
-                        <img src="https://via.placeholder.com/600x400" alt="Project 3">
-                        <div class="project-description">
-                            <h3>Project 3</h3>
-                            <p>Description for Project 3...</p>
-                        </div>
-                    </div>
+                <div class="project">
+                    <img src="https://patrickroethe.github.io/project-images/Blog.png" alt="Project 3">
+                    <h3>Blog</h3>
+                    <p>Short description project 3.</p>
+                    <a href="projects.html?project=3" class="button">Read More</a>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
+        </section>
     </div>
 
     <footer>
-        <p>Contact me at [your-email@example.com]</p>
+        <p>Contact at patroe01271@stud.noroff.no</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="portfolio.js"></script>
 </body>
 
 </html>
