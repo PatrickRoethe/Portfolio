@@ -127,6 +127,13 @@ footer {
     margin: 10px;
 }
 
+/* Add margin to the bottom of the bolded "Experiences" */
+#project-details strong {
+    margin-bottom: 10px;
+    display: block;
+    margin-top: 20px;
+}
+
 /* Responsive Styles */
 @media (min-width: 768px) {
     #project-details {
@@ -136,7 +143,7 @@ footer {
 
     #project-details img {
         margin-right: 20px;
-        max-width: 60%; /* Adjusted to reduce image size on desktop */
+        max-width: 60%;
     }
 
     .content {
@@ -147,8 +154,8 @@ footer {
         align-self: flex-start;
     }
 
-    #project-details p li ul {
-        font-size: 1.3em; /* Increase the font size for desktop */
+    #project-details p, #project-details li, #project-details ul {
+        font-size: 1.3em;
     }
 }
 
