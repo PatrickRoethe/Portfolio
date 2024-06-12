@@ -107,7 +107,7 @@ footer {
 }
 
 .back-button:hover {
-    background-color: #e53935;
+    background-color: #2196f3;
 }
 
 #project-details {
@@ -163,4 +163,8 @@ footer {
     #project-details img {
         max-width: 90%;
     }
+}
+
+footer p {
+    font-weight: bold;
 }
