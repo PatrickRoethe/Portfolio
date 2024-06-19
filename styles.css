@@ -127,14 +127,12 @@ footer {
     margin: 10px;
 }
 
-/* Add margin to the bottom of the bolded "Experiences" */
 #project-details strong {
     margin-bottom: 10px;
     display: block;
     margin-top: 20px;
 }
 
-/* Responsive Styles */
 @media (min-width: 768px) {
     #project-details {
         flex-direction: row;
